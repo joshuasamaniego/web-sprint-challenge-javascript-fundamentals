@@ -21,7 +21,18 @@ myFunction();
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
-function summation(number) {
-  return (number * (number + 1)) / 2;
+// function summation(number) {
+//   return (number * (number + 1)) / 2;
+// }
+// console.log(summation(4));
+
+function counter(number) {
+  let count = 0;
+  let total = 0;
+  for (let i = 0; i < number; i++) {
+    count++; // incrementor
+    total += count; // total acts like an 'array' holder or accumulator here
+  }
+  return total;
 }
-console.log(summation(4));
+console.log(counter(4));

@@ -31,7 +31,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
    The main difference between a callback and a HOF is that a higher order function houses a callback function inside of it by receiveing it as a parameter, while the callback function is the function being passed as an argument.
 
 3. What is closure?
-   Closure is the ability for developers to use of functions together, by referencing code that was initialized elsewhere. Usually, this refers to functions that are nested within other functions, where the developer should know that the innermost functions can access data from a 'parent' function, but the outermost functios cannot.
+   Closure is the ability for developers to use of functions together, by referencing code that was initialized elsewhere. Usually, this refers to functions that are nested within other functions, where the developer should know that the innermost functions can access data from a 'parent' function, but the outermost functions cannot.
 
 4. Describe the four rules of the 'this' keyword.
    Window/Global binding refers to when the 'this' keyword is used in global scope and due to this context, the this keyword will return the whole window. Implicit binding for the 'this' keyword implies that the 'this' keyword is talking about the object to the left of the dot in the called function. New Binding always occurs with the 'new' keyword and is referring to a new object being made from a parent one. In the case of the 'this' keyword, 'this' refers to new object being created. Explicit binding refers to when .apply, .bind, or .call is used to explicitly tell the browser what data is being used to overwrite the preceding data. In this case, 'this' refers to exactly what we're telling the browser.
